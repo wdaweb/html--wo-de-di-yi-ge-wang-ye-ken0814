@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一個網頁</title>
+    <style>
+        body{
+            padding-top:50px;
+            padding-bottom:500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>前端技術</h1>
+    
+    <p>學習前端技術除了要會使⽤它，還需要了解其原理運作，因此「<strong>觀念建立</strong>」與「<strong>反覆練習</strong>」是每天提供⾃⼰成⻑的養分，唯有在觀念建立之後的反覆練習
+       ，才能在不斷錯誤中找到正確的答案，為⾃⼰打下深厚的基礎，⽇後在專題設計才能獨當⼀⾯，設計出結構穩固、美觀且具有互動功能的網站，遇到不了解或是忘記的語法，可以擅⽤<a href="https://www.google.com/" style="color:blue">Google</a> 或前
+       往<a href="https://developer.mozilla.org/zh-TW/" style="color:blue">MDN</a> 與 <a href="https://www.w3schools.com/" style="color:blue">W3school</a> 查詢。
+    </p>
+    
+    <ul>
+        <li><a href="#abc" style="color:blue">HTML</a></li>
+        <li><a href="#bcd" style="color:blue">CSS</a></li>
+        <li><a href="#cde" style="color:blue">JavaScript</a></li>
+        <li><a href="#def" style="color:blue">jQuery</a></li>
+        <li><a href="#efg" style="color:blue">Bootstrap</a></li>
+    </ul>
+
+    <hr>
+    
+    <br>
+    
+    <img src="data:image/png;base64,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" alt="html5" title="HTML5" width="200" id="abc">
+    
+    <h2>HTML-負責架構、內容</h2>
+    
+    <p>
+        超文本標記語⾔（英語：HyperText Markup Language，簡稱：HTML）是⼀種⽤於建立網⾴的標準標記語⾔。
+        HTML 是⼀種基礎技術，常與 CSS、JavaScript ⼀起被眾多網站⽤於設計賞⼼悅⽬的網⾴、網⾴應⽤程式以及⾏
+        動應⽤程式的使⽤者介⾯。網⾴瀏覽器可以讀取 HTML 檔案，並將其彩現成視覺化網⾴。HTML 描述了⼀個網站
+        的結構語意隨著線索的呈現，使之成為⼀種標記語⾔⽽非程式語⾔。
+    </p>
+    
+    <h3>基礎結構：</h3>
+
+    <pre>
+        <code>
+            &#060;html&#062;
+                &#060;head&#062;
+                &nbsp; 
+                &#060;/head&#062;
+                &#060;body&#062;
+                &nbsp; 
+                &#060;/body&#062;
+            &#060;/html&#062;    
+        </code>
+    </pre>
+
+    <h3>標籤特性：</h3>
+
+    <ol>
+        <li>標籤不分⼤⼩寫，但請⽤⼩寫。</li>
+        <li>"<>" 開頭，" < />" 結尾。</li>
+        <li>標籤具有屬性與值的特性。</li>
+        <li>標籤標記內容，產⽣語義，組合成了結構。</li>
+    </ol>
+
+    <a href="#" style="color:blue">回到頂端</a>
+
+    <hr>
+    <br>
+    <br>
+    <br>
+
+    <img src="http://fbukevin.github.io/weic_d3js/css3.jpg" alt="css" title="css" width="200" id="bcd">
+
+    <h2>CSS-負責外觀、樣式</h2>
+
+    <p>
+        層疊樣式表（英語：Cascading Style Sheets，簡寫CSS），⼜稱串樣式列表、級聯樣式表、串接樣式表、階層式樣
+        式表，⼀種⽤來為結構化文件（如 HTML 文件或 XML 應⽤）添加樣式（字型、間距和顏⾊等）的電腦語⾔，由
+        W3C 定義和維護。⽬前最新版本是 CSS2.1，為 W3C 的推薦標準。CSS3 現在已被⼤部分現代瀏覽器⽀援，⽽下
+        ⼀版的 CSS4 仍在開發中。
+    </p>
+
+    <a href="#" style="color:blue">回到頂端</a>
+
+    <hr>
+
+    <img src="https://www.thecodecrypt.com/images/2020/01/08/js.png" alt="css" title="css" width="200" id="cde">
+
+    <h2>JavaScript-負責⾏為、互動</h2>
+
+    <p>
+        JavaScript，通常縮寫為 JS，是⼀種進階直譯語⾔的程式語⾔。JavaScript 是⼀⾨基於原型、函式先⾏的語⾔，是
+        ⼀⾨多範式的語⾔，它⽀援物件導向編程，指令式程式設計，以及函式語⾔程式設計。
+    </p>
+
+    <a href="#" style="color:blue">回到頂端</a>
+
+    <hr>
+
+    <img src="http://www.marcus-povey.co.uk/wp-content/jquery_logo.jpg" alt="jQuery" title="jQuery" width="200" id="def">
+
+    <h2>jQuery-JavaScript函式庫</h2>
+
+    <p>
+        jQuery 是⼀套跨瀏覽器的 JavaScript 函式庫，簡化 HTML 與 JavaScript 之間的操作。全球前 10,000 個存取最⾼的
+        網站中，有 65% 使⽤了jQuery，是⽬前最受歡迎的 JavaScript 函式庫。
+    </p>
+
+    <a href="#" style="color:blue">回到頂端</a>
+
+    <hr>
+
+    <img src="https://kazoo.jp/wpkazoo2019/wp-content/uploads/2018/05/bootstrap4.png" alt="Bootstrap_4" title="Bootstrap_4" width="230" id="efg">
+
+    <h2>Bootstrap-CSS UI 框架</h2>
+
+    <p>
+        Bootstrap 是⼀組⽤於網站和網路應⽤程式開發的開源前端（所謂「前端」，指的是展現給終端使⽤者的介⾯。與
+        之對應的「後端」是在伺服器上⾯執⾏的程式碼）框架，包括 HTML、CSS及JavaScript 的框架，提供字體排印、
+        表單、按鈕、導航及其他各種元件及 Javascript 擴充套件，旨在使動態網⾴和 Web 應⽤的開發更加容易。
+    </p>
+
+    <a href="#" style="color:blue">回到頂端</a>
+
+    <hr>
+
+    <table border="1" width="600" cellspacing="1" cellpadding="2">
+        <caption>座位表</caption>
+        <tr>
+            <td colspan="4" align="center">
+                老師的位置
+            </td>
+
+        </tr>
+        <tr>
+            <td align="center">4號</td>
+            <td align="center">3號</td>
+            <td align="center">2號</td>
+            <td align="center">1號</td>
+        </tr>
+        <tr>
+            <td align="center">8號</td>
+            <td align="center">7號</td>
+            <td align="center">6號</td>
+            <td align="center">5號</td>
+        </tr>
+        <tr>
+            <td align="center">12號</td>
+            <td align="center">11號</td>
+            <td align="center">10號</td>
+            <td align="center">9號</td>
+        </tr>
+        <tr>
+            <td align="center">16號</td>
+            <td align="center">15號</td>
+            <td align="center">14號</td>
+            <td align="center">13號</td>
+        </tr>
+        <tr>
+            <td align="center">20號</td>
+            <td align="center">19號</td>
+            <td align="center">18號</td>
+            <td align="center">17號</td>
+        </tr>
+        <tr>
+            <td align="center">24號</td>
+            <td align="center">23號</td>
+            <td align="center">22號</td>
+            <td align="center">21號</td>
+        </tr>
+    </table>
+</body>
+</html>
